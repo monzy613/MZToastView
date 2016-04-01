@@ -1,0 +1,6 @@
+framework module MZToastView {
+  umbrella header "MZToastView-umbrella.h"
+
+  export *
+  module * { export * }
+}

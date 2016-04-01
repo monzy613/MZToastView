@@ -1,0 +1,25 @@
+{
+  "name": "MZToastView",
+  "version": "0.1.0",
+  "summary": "A toast view for ios",
+  "description": "A toast view for ios. like the one in android",
+  "homepage": "https://github.com/monzy613/MZToastView",
+  "license": "MIT",
+  "authors": {
+    "monzy613": "monzy613@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/monzy613/MZToastView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MZToastView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
