@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.0)
   - FBSnapshotTestCase/SwiftSupport (2.1.0):
     - FBSnapshotTestCase/Core
-  - MZToastView (0.1.0)
+  - MZToastView (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,6 +16,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
-  MZToastView: 6973343900c5f047bd3595380e7f42f398bf9a7d
+  MZToastView: 704a1d7098cfd1457a740a32b3d054819a8623c8
 
 COCOAPODS: 0.39.0

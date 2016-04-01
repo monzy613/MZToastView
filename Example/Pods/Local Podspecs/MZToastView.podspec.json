@@ -1,6 +1,6 @@
 {
   "name": "MZToastView",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A toast view for ios",
   "description": "A toast view for ios. like the one in android",
   "homepage": "https://github.com/monzy613/MZToastView",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/monzy613/MZToastView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
