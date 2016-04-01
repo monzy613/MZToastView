@@ -191,7 +191,7 @@ public class MZToastView: UIView {
     }
     
     override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        dismissSelf(withDuration: dismissDuration / 3.5)
+        dismissSelfWithDuration(dismissDuration / 3.5)
     }
     
 }
