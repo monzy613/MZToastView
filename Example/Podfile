@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MZToastView_Example', :exclusive => true do
+  pod 'MZToastView', :path => '../'
+end
+
+target 'MZToastView_Tests', :exclusive => true do
+  pod 'MZToastView', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
