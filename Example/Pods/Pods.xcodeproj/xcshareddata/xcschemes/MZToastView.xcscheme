@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '508D03CA03B932950019AD01'
+               BlueprintIdentifier = 'D71654B22658F1188391A009'
                BlueprintName = 'MZToastView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MZToastView.framework'>

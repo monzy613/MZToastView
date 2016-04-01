@@ -140,7 +140,7 @@ public class MZToastView: UIView {
             timeInterval = 1
             break
         }
-        NSTimer.scheduledTimerWithTimeInterval(timeInterval, target: self, selector: "dismissSelf", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(timeInterval, target: self, selector: #selector(MZToastView.dismissSelf), userInfo: nil, repeats: false)
     }
     
     func show() {
@@ -155,7 +155,7 @@ public class MZToastView: UIView {
     }
     
     
-    func dismissSelf(withDuration duration: NSTimeInterval) {
+    func dismissSelfWithDuration(duration: NSTimeInterval) {
         UIView.animateWithDuration(duration, animations: {
             self.alpha = 0.0
             }) {
